@@ -1,1 +1,1 @@
-# CITC-1300_WebDesign
+# Web Design Projects
