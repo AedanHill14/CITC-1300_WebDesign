@@ -191,8 +191,8 @@ section, aside {
     text-indent: 40px;
     border: 2px solid white;
     border-radius: 20px;
-    margin: 20;
-    padding: 20;
+    margin: 20px;
+    padding: 20px;
 }
 .pg_3 {
     color: white;
@@ -207,7 +207,6 @@ aside {
     width: 25%;
     background-color: #161616;
     padding: 20px;
-    text-indent: none;
 }
 h4 {
     color: red;
