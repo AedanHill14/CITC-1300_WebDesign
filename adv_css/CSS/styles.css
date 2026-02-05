@@ -78,7 +78,7 @@ main h2 {
 main img {
     display: block;
     margin: 15px 58px;
-    width: 250px;
+    width: 22%;
     float: right;
 }
 main ul {
@@ -147,7 +147,7 @@ p {
     text-indent: 40px;
 }
 .pg_2img {
-    width: 600px;
+    width: 52%;
     float: none;
     margin: 20px auto;
     padding: 15px
@@ -217,14 +217,14 @@ h4 {
     padding: 15px;
 }
 section img {
-    width: 325px;
+    width: 45%;
     border: 2px solid red;
     border-radius: 20px;
     margin: 20px
 }
 aside img {
     margin: 10px auto;
-    width: 250px;
+    width: 100%;
     border: 2px solid red;
     border-radius: 20px;
 }
