@@ -1,0 +1,498 @@
+/* Global Styles */
+* {
+    margin: 0;
+}
+body {
+background-color: black;
+background-image: url(../Images/redsmokebg.jpg);
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+/* Mobile Styles */
+
+header {
+    text-align: center;
+    padding: 40px;
+    border-bottom: 2px solid white;
+}
+
+#home {
+width: 100%;
+/* margin: auto; */
+padding: 0;
+}
+header h1 {
+    font-size: 55px;
+    color: white;
+}
+
+#container {
+    background-color: #161616;
+    width: 80%;
+    margin: 20px auto;
+    border: 4px solid black;
+    /* padding: 20px; */
+    border-radius: 20px;
+}
+
+
+nav {
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 ;
+    
+}
+nav li {
+    display: block;
+}
+nav li a {
+    display: block;
+    background-color: black;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    border-bottom: 2px solid red;
+    margin: 10px 0;
+}
+nav li a:hover {
+    color: red;
+    background-color: #161616;
+}
+
+main {
+    background-color: black;
+    border: 2px solid white;
+    /* padding: 10px; */
+    border-radius: 20px;
+}
+main h2 {
+    text-align: center;
+    font-size: 45px;
+    color: red;
+}
+
+main li{
+    display: inline-block;
+}
+main li p {
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    background-color: black;
+    width: 309px;
+    height: 40px;
+    margin: 0 5px;
+    text-align: center; 
+}
+main h3 {
+    color: red;
+    text-align: center;
+    font-size: 45px; 
+    margin: 0;
+    padding: 20px; 
+}
+.wtl {
+    display: inline-block;
+    margin: 15px;
+    padding: 8px;
+    color: white;
+    font-size: 24px;
+    background-color: black;
+    width: 158px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+.wtl:hover {
+    color: red;
+    background-color: #161616;
+}
+.lastline {
+    margin: 0;
+    padding: 0;
+}
+footer {
+    padding: 40px 0;
+    text-align: center;
+    border-top: 4px solid white;
+    color: white;
+}
+p {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 35px;
+    font-size: 18px;
+    /* text-align: justify; */
+    /* text-indent: 40px; */
+}
+.pg_2img {
+    width: 52%;
+    float: none;
+    margin: 20px auto;
+    padding: 15px
+}
+.pg_2 main {
+    padding: 20px;
+}
+.pg_2 ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.pg_2 li {
+    display: inline-block;
+}
+.pg_2 li a {
+    text-indent: 0;
+    display: block;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.multi_col {
+    display: block;
+}
+section, aside {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 35px;
+    font-size: 18px;
+    text-align: left;
+    text-indent: 10px;
+    border: 2px solid #161616;
+    border-radius: 20px;
+
+}
+.pg_3 {
+    color: white;
+}
+section {
+    width: 90%;
+    padding: 10px;
+    margin: 0;
+    background-color: #161616;
+}
+aside {
+    width: 90%;
+    background-color: #161616;
+    padding: 10px;
+}
+h4 {
+    color: red;
+    text-align: center;
+    font-size: 28px; 
+    margin: 0;
+    padding: 10px;
+}
+section img {
+    width: 50%;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin: 20px;
+    float: right;
+}
+section h2 {
+    text-align: left;
+    margin: 10px
+}
+aside img {
+    margin: 10px auto;
+    width: 100%;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+.discography {
+    display: block;
+
+}
+.albums {
+    margin: 20px auto;
+    width: 70%;
+}
+.albums h3 {
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h5 {
+    color: white;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+}
+.tours li a {
+     display: block;
+}
+.tours {
+    margin: 15px;
+    padding: 8px;
+    color: white;
+    font-size: 24px;
+    background-color: black;
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) {
+    nav li {
+        display: inline-block;
+        width: 145px;
+        
+    }
+    nav li a {
+        border: 2px solid red;
+        border-radius: 10px;
+    }
+    main {
+        padding: 10px;
+    }
+    #container {
+        width: 75%
+    }
+    .discography {
+        display: flex;
+    }
+    .albums {
+        margin: 10px;
+    }
+    .albums h3 {
+        font-size: 16px;
+    }
+    .wtl {
+        width: 95px;
+        font-size: 15px;
+        margin: 10px 5px;
+        padding: 5px;
+    }
+    .pg_2 li {
+        display: inline-block;
+    }
+    .pg_2 li a {
+        width: 200px;
+        margin: 15px;
+    }
+    section {
+        width: 96%;
+    }
+    aside {
+        width: 96%;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+
+#container {
+    background-color: #161616;
+    width: 65%;
+    margin: 20px auto;
+    border: 4px solid black;
+    padding: 20px;
+    border-radius: 20px;
+}
+nav {
+    margin: 25px
+}
+nav li {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+}
+nav li a {
+    margin: 0px;
+}
+header {
+    text-align: center;
+    padding: 40px;
+    border-bottom: 2px solid white;
+}
+header h1 {
+    font-size: 75px;
+    color: white;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 45px;
+    color: red;
+}
+
+main h3 {
+    color: red;
+    text-align: center;
+    font-size: 45px; 
+    margin: 0;
+    padding: 20px; 
+}
+.wtl {
+    display: inline-block;
+    margin: 8px;
+    padding: 8px;
+    color: white;
+    font-size: 25px;
+    background-color: black;
+    width: 175px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+.wtl:hover {
+    color: red;
+    background-color: #161616;
+}
+.lastline {
+    margin: 0;
+    padding: 0;
+}
+footer {
+    padding: 40px 0;
+    text-align: center;
+    border-top: 4px solid white;
+    color: white;
+}
+p {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 35px;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 40px;
+}
+.pg_2img {
+    width: 52%;
+    float: none;
+    margin: 20px auto;
+    padding: 15px
+}
+.pg_2 {
+    text-align: center;
+}
+.pg_2 ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.pg_2 li {
+    display: inline-block;
+}
+.pg_2 li a {
+    text-indent: 0;
+    display: block;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    font-size: 25px;
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.multi_col {
+    display: flex;
+}
+section, aside {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 35px;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 40px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+.pg_3 {
+    color: white;
+}
+section {
+    width: 60%;
+    padding: 20px;
+    margin: 0 50px;
+    background-color: #161616;
+}
+aside {
+    width: 35%;
+    background-color: #161616;
+    padding: 20px;
+}
+h4 {
+    color: red;
+    text-align: center;
+    font-size: 38px; 
+    margin: 0;
+    padding: 15px;
+}
+section img {
+    width: 50%;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin: 20px;
+    float: right;
+}
+section h2 {
+    text-align: left;
+}
+aside img {
+    margin: 10px auto;
+    width: 100%;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+.discography {
+    display: flex;
+
+}
+.albums {
+    margin: 20px;
+    width: 40%;
+}
+.albums h3 {
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+}
