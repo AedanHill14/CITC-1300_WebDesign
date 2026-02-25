@@ -134,6 +134,8 @@ iframe {
     margin: 2px auto ;
     padding: 20px;
     border: 0;
+    height: 200px;
+    width: 90%;
 }
 h3 {
     font-size: 20px;
@@ -144,9 +146,7 @@ h3 {
     font-style: normal;
     text-align: center;
 }
-iframe {
-    height: 200px
-}
+
 /* Tablet Styles */
 @media (min-width: 768px) {
     #container{
@@ -164,7 +164,8 @@ iframe {
         font-size: 13px;
     }
     iframe {
-        height: 400px
+        height: 400px;
+        width: 90%;
     }
 }
 /* Desktop Styles */
